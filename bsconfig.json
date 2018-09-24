@@ -1,0 +1,40 @@
+{
+  "name": "@ristostevcev/bs-callbag-basics",
+  "version": "1.0.0",
+  "sources": [{
+    "dir" : ".",
+    "files" : ["CallbagBasics.ml"]
+  }, {
+    "dir": ".",
+    "type": "dev",
+    "files": ["Example.ml"]
+  }],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@ristostevcev/bs-callbag",
+    "@ristostevcev/bs-callbag-combine",
+    "@ristostevcev/bs-callbag-concat",
+    "@ristostevcev/bs-callbag-filter",
+    "@ristostevcev/bs-callbag-flatten",
+    "@ristostevcev/bs-callbag-for-each",
+    "@ristostevcev/bs-callbag-from-event",
+    "@ristostevcev/bs-callbag-from-iter",
+    "@ristostevcev/bs-callbag-from-obs",
+    "@ristostevcev/bs-callbag-from-promise",
+    "@ristostevcev/bs-callbag-interval",
+    "@ristostevcev/bs-callbag-map",
+    "@ristostevcev/bs-callbag-merge",
+    "@ristostevcev/bs-callbag-scan",
+    "@ristostevcev/bs-callbag-share",
+    "@ristostevcev/bs-callbag-skip",
+    "@ristostevcev/bs-callbag-take"
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "refmt": 3
+}

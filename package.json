@@ -1,0 +1,36 @@
+{
+  "name": "@ristostevcev/bs-callbag-basics",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "Risto Stevcev",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^4.0.3"
+  },
+  "dependencies": {
+    "@ristostevcev/bs-callbag": "^1.1.0",
+    "@ristostevcev/bs-callbag-combine": "^1.0.0",
+    "@ristostevcev/bs-callbag-concat": "^1.0.0",
+    "@ristostevcev/bs-callbag-filter": "^1.0.0",
+    "@ristostevcev/bs-callbag-flatten": "^1.0.0",
+    "@ristostevcev/bs-callbag-for-each": "^1.0.0",
+    "@ristostevcev/bs-callbag-from-event": "^1.0.0",
+    "@ristostevcev/bs-callbag-from-iter": "^1.1.0",
+    "@ristostevcev/bs-callbag-from-obs": "^1.1.0",
+    "@ristostevcev/bs-callbag-from-promise": "^1.0.0",
+    "@ristostevcev/bs-callbag-interval": "^1.0.0",
+    "@ristostevcev/bs-callbag-map": "^1.0.0",
+    "@ristostevcev/bs-callbag-merge": "^1.0.0",
+    "@ristostevcev/bs-callbag-scan": "^1.0.0",
+    "@ristostevcev/bs-callbag-share": "^1.0.0",
+    "@ristostevcev/bs-callbag-skip": "^1.0.0",
+    "@ristostevcev/bs-callbag-take": "^1.0.0"
+  }
+}
