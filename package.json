@@ -4,7 +4,8 @@
   "scripts": {
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
-    "watch": "bsb -make-world -w"
+    "watch": "bsb -make-world -w",
+    "example": "node Example.bs.js"
   },
   "keywords": [
     "BuckleScript"
@@ -21,7 +22,7 @@
     "@ristostevcev/bs-callbag-filter": "^1.0.0",
     "@ristostevcev/bs-callbag-flatten": "^1.0.0",
     "@ristostevcev/bs-callbag-for-each": "^1.0.0",
-    "@ristostevcev/bs-callbag-from-event": "^1.0.0",
+    "@ristostevcev/bs-callbag-from-event": "^1.2.0",
     "@ristostevcev/bs-callbag-from-iter": "^1.1.0",
     "@ristostevcev/bs-callbag-from-obs": "^1.1.0",
     "@ristostevcev/bs-callbag-from-promise": "^1.0.0",
