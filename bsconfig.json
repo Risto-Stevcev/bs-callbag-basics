@@ -7,7 +7,7 @@
   }, {
     "dir": ".",
     "type": "dev",
-    "files": ["Example.ml"]
+    "files": ["Example.ml", "Example2.ml"]
   }],
   "package-specs": {
     "module": "commonjs",

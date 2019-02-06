@@ -5,7 +5,8 @@
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
     "watch": "bsb -make-world -w",
-    "example": "node Example.bs.js"
+    "example": "node Example.bs.js",
+    "example2": "parcel example.html"
   },
   "keywords": [
     "BuckleScript"
@@ -13,7 +14,8 @@
   "author": "Risto Stevcev",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "^4.0.3"
+    "bs-platform": "^4.0.3",
+    "parcel-bundler": "^1.11.0"
   },
   "dependencies": {
     "@ristostevcev/bs-callbag": "^1.1.0",
@@ -26,7 +28,7 @@
     "@ristostevcev/bs-callbag-from-iter": "^1.1.0",
     "@ristostevcev/bs-callbag-from-obs": "^1.1.0",
     "@ristostevcev/bs-callbag-from-promise": "^1.0.0",
-    "@ristostevcev/bs-callbag-interval": "^1.0.0",
+    "@ristostevcev/bs-callbag-interval": "^1.1.0",
     "@ristostevcev/bs-callbag-map": "^1.0.0",
     "@ristostevcev/bs-callbag-merge": "^1.0.0",
     "@ristostevcev/bs-callbag-scan": "^1.0.0",
