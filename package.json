@@ -1,6 +1,13 @@
 {
   "name": "@ristostevcev/bs-callbag-basics",
-  "version": "1.2.0",
+  "description": "Tiny and fast reactive/iterable programming library",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/bs-callbag-basics.git"
+  },
+  "homepage": "https://github.com/Risto-Stevcev/bs-callbag-basics",
+  "bugs": "https://github.com/Risto-Stevcev/bs-callbag-basics/issues",
+  "version": "1.3.0",
   "scripts": {
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
