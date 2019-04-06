@@ -3,6 +3,13 @@
 Bucklescript bindings for [callbag-basics](https://github.com/staltz/callbag-basics)
 
 
+## Install
+
+```sh
+yarn add @ristostevcev/bs-callbag-basics
+```
+
+
 ## Example
 
 ```ocaml
